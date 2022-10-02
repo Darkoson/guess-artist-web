@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ApiResult, iTuneResult } from "../interfaces";
-const iTuneEndpoint: string = "https://itunes.apple.com/lookup?";
-const apiEndpoint: string = "http://localhost:4000/";
+const iTuneEndpoint: string = process.env.ITUNE_ENDPOINT as string;
+const apiEndpoint: string = process.env.API_ENDPOINT as string;
 
 const iTuneOpts = {
   withCredentials: true,

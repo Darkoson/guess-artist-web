@@ -8,6 +8,7 @@ import PlayGame from "./components/play-game";
 import { useGameStorage } from "./shared/hooks/use-game-storage";
 import { selectStoreSettings } from "./shared/store/game-slice";
 
+
 function App() {
   const { fromReduxToLocalStorage, fromLocalStorageOrServerToRedux } =
     useGameStorage();
@@ -20,6 +21,8 @@ function App() {
    *  local storage of the browser
    */
   useEffect(() => {
+    console.log("server:" + process.env.REACT_APP_A);
+    
     fromLocalStorageOrServerToRedux();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

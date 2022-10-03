@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/Darkoson/guess-artist-web/static/js/main.78c168bf.js",
-    "static/media/correct.gif": "/Darkoson/guess-artist-web/static/media/correct.9a53e000d9d5f8059a63.gif",
-    "static/media/wrong.gif": "/Darkoson/guess-artist-web/static/media/wrong.25c79238697b7645bfa8.gif",
-    "index.html": "/Darkoson/guess-artist-web/index.html",
-    "main.78c168bf.js.map": "/Darkoson/guess-artist-web/static/js/main.78c168bf.js.map"
+    "main.js": "/guess-artist-web/static/js/main.153a6ccc.js",
+    "static/media/correct.gif": "/guess-artist-web/static/media/correct.9a53e000d9d5f8059a63.gif",
+    "static/media/wrong.gif": "/guess-artist-web/static/media/wrong.25c79238697b7645bfa8.gif",
+    "index.html": "/guess-artist-web/index.html",
+    "main.153a6ccc.js.map": "/guess-artist-web/static/js/main.153a6ccc.js.map"
   },
   "entrypoints": [
-    "static/js/main.78c168bf.js"
+    "static/js/main.153a6ccc.js"
   ]
 }
